@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>Fee Structure</title>
+<style type="text/css">
+    header{
+    position: absolute;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    z-index: 100;
+    background: #ffffffcc;
+    border-radius: 30PX;
+    top: 0;
+    margin-top: 20PX;
+    font-size: 16px;
+    height: 37px;
+    text-align: center;}
+    
+.logo{
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 120px;}
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    color: 6px 15px;
+    border-radius: 25px;
+    margin: 0 10px;
+    font-weight: 600;}
+.navigation a:hover,
+.navigation a.active{
+    background: #359381;
+    padding: 5px;
+    color: #fff;}
+td,
+th{
+    text-align: center;
+}
+table, th, td{
+    border-spacing: 3px;
+}
+.collapsible{
+    max-width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapsible input{
+    display: none;
+
+}
+.collapsible label{
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px 0 rgba(0, 0, 0, .08) ;
+    color: #1c1c6b;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 1;
+}
+.collapsible label:after{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    transition: all 0.3s ease;
+}
+.collapsible-text{
+    max-height: 1px;
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 1.4;
+    position: relative;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+.collapsible input:checked ~ .collapsible-text{
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px 0 rgba(0, 0, 0, .08) ;
+    opacity: 1;
+    top: 0;
+}
+.collapsible-text h2{
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color: #1c1c6b;    
+}
+.collapsible-text p{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+</style>
+</head>
+<body style="  padding: 20px; background:#AFEEEE; font-family: 'Poppins', sans-serif;">
+<header>
+    <h2 class="logo">Dr. VSEC</h2>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="fee.html" class="active">Fee Structure</a>
+        <a href="registration.html">Registration</a>
+        <a href="mtk.html">More to know</a>
+    </nav>
+</header>
+<section style="margin-top: 90px;">
+<center>
+<table background="pt.png.png" border="5px" style="padding: 5px; height: 350px; width: 90%; border-style: ridge; border-color: lavender;   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);">
+<caption>As per data @2023</caption>
+<TR>
+<TH>CLASS</TH>
+<th>PG</th>
+<th>1-5</th>
+<th>6-8</th>
+<th>9-10</th>
+<th>11-12</th>
+</TR>
+<TR>
+    <TH>MAY-JUNE</TH>
+    <TD>₹6500</TD>
+    <TD>₹7850</TD>
+    <TD>₹8200</TD>
+    <TD>₹9500</TD>
+    <TD>₹10600</TD>
+</TR>
+<TR>
+    <TH>JULY-AUGUST</TH>
+    <TD>₹7500</TD>
+    <TD>₹8850</TD>
+    <TD>₹9200</TD>
+    <TD>₹10500</TD>
+    <TD>₹12600</TD>
+</TR>
+<TR>
+    <TH>SEPTEMBER-OCTOBER</TH>
+    <TD>₹6500</TD>
+    <TD>₹7850</TD>
+    <TD>₹8200</TD>
+    <TD>₹9500</TD>
+    <TD>₹10600</TD>
+</TR>
+<TR>
+    <TH>NOVEMBER-DECEMBER</TH>
+    <TD>₹7500</TD>
+    <TD>₹8850</TD>
+    <TD>₹9200</TD>
+    <TD>₹10500</TD>
+    <TD>₹12600</TD>
+</TR>
+<TR>
+    <TH>JAN TO MARCH</TH>
+    <TD>₹10500</TD>
+    <TD>₹14775</TD>
+    <TD>₹15300</TD>
+    <TD>₹17250</TD>
+    <TD>₹20530</TD>
+</TR>
+</table></center></section><br><br><br>
+<div class="wrapper">
+<div class="collapsible">
+    <input type="checkbox" id="collapsible-head">
+<label for="collapsible-head">Extra Registration Fee ?</label>
+<div class="collapsible-text">
+    <h2>Annual registration Fee</h2>
+    <P>
+        The annual registration fee for the school is ₹2500, a one-time payment that occurs every year. This fee is separate from term charges and is designed to cover administrative and registration expenses. It ensures that the necessary paperwork and processes for each student are efficiently managed throughout the academic year. The annual registration fee contributes to the smooth functioning of the school's administrative operations. 
+    </P>
+
+</div></div></div>
